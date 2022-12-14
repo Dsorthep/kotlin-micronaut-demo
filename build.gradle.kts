@@ -15,17 +15,20 @@ repositories {
 }
 
 dependencies {
-    kapt("io.micronaut:micronaut-http-validation")
-    implementation("io.micronaut:micronaut-http-client")
-    implementation("io.micronaut:micronaut-jackson-databind")
-    implementation("io.micronaut.kotlin:micronaut-kotlin-runtime")
-    implementation("jakarta.annotation:jakarta.annotation-api")
+    implementation("com.fasterxml.jackson.core:jackson-annotations:2.14.0")
+    implementation("io.micronaut.serde:micronaut-serde-jackson:1.3.3")
+    implementation("com.willowtreeapps.assertk:assertk:0.25")
+    kapt("io.micronaut:micronaut-http-validation:3.7.4")
+    implementation("io.micronaut:micronaut-http-client:3.7.4")
+    implementation("io.micronaut:micronaut-jackson-databind:3.7.4")
+    implementation("io.micronaut.kotlin:micronaut-kotlin-runtime:3.2.2")
+    implementation("jakarta.annotation:jakarta.annotation-api:2.1.0")
     implementation("org.jetbrains.kotlin:kotlin-reflect:${kotlinVersion}")
     implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8:${kotlinVersion}")
-    runtimeOnly("ch.qos.logback:logback-classic")
-    implementation("io.micronaut:micronaut-validation")
+    runtimeOnly("ch.qos.logback:logback-classic:1.4.5")
+    implementation("io.micronaut:micronaut-validation:3.7.4")
 
-    runtimeOnly("com.fasterxml.jackson.module:jackson-module-kotlin")
+    implementation("com.fasterxml.jackson.module:jackson-module-kotlin:2.14.0")
 
 }
 

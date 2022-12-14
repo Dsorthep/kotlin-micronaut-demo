@@ -1,0 +1,17 @@
+[
+  {
+    "id": 1,
+    "title": "template-one",
+    "text": "$greeting $firstName, and welcome to $company! Room $roomNumber is now ready for you. Enjoy your stay, and let us know if you need anything."
+  },
+  {
+    "id": 2,
+    "title": "template-two",
+    "text": "$greeting $firstName! Thanks for staying at $company. We have you in room $roomNumber and please let us know if you need anything else. We hope you enjoy your stay!"
+  },
+  {
+    "id": 3,
+    "title": "template-three",
+    "text": "$greeting $firstName! The team from $company welcomes you to our facility. You'll be staying in room $roomNumber. Please let us know if we can make your stay better. Enjoy your stay!"
+  }
+]
